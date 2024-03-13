@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grilli - Amazing & Delicious Food</title>
+
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+
+  <body id="top">
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Grilli</p>
+    </div>
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">
+            Restaurant St, Delicious City, London 9578, UK
+          </span>
+        </address>
+
+          <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+            <div class="icon">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <span class="span"> Diariamente : 8.00 am to 10.00 pm </span>
+        </div>
+        
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span"> +1 123 456 7890 </span>
+        </a>
+
+        <div class="separator"> </div>
+          <a href="malito:booking@restaurant.com" class="topbar-item link">
+            <div class="icon">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span"> booking@restaurant.com </span>
+          </a>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Grilli-home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="Grilli-home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+                <span class="span">Inicio</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Menus</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Sobre nós</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Nossos chefes</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#Contact" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Contato</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, <br />
+              London 9578, UK
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="malito:booking@grilli.com" class="body-4 sidebar-link"
+              >booking@grilli.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+88123123456"
+              class="body-1 contact-number hover-underline"
+              >+88 123 123456</a
+            >
+          </div>
+        </nav>
+
+        <a href="" class="btn btn-secundary">
+          <span class="text text-1">Encontre uma mesa</span>
+
+          <span class="text text-2" aria-hidden="true">Encontre uma mesa</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- #HERO -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="assets/images/hero-slider-1.jpg"
+                  width="1880"
+                  height="950"
+                  alt="hero-slider"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                TRADIÇÃO E HIGIENE
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Pelo amor à <br>
+                comida deliciosa
+              </h1>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                VENHA COM A FAMÍLIA E SINTA A ALEGRIA DE UMA COMIDA DE DAR ÁGUA NA BOCA
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Veja nosso cardapio </span>
+                <span class="text text-2" aria-hidden="true"
+                  >Veja nosso cardapio
+                </span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="assets/images/hero-slider-2.jpg"
+                  width="1880"
+                  height="950"
+                  alt="hero-slider"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                EXPERIÊNCIA DELICIOSA
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Sabores inspirados nas <br>
+                estações
+              </h1>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                VENHA COM A FAMÍLIA E SINTA A ALEGRIA DE UMA COMIDA DE DAR ÁGUA NA BOCA
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Veja nosso cardapio </span>
+                <span class="text text-2" aria-hidden="true"
+                  >Veja nosso cardapio
+                </span>
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="assets/images/hero-slider-3.jpg"
+                  width="1880"
+                  height="950"
+                  alt="hero-slider"
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                INCRÍVEL E DELICIOSO
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Onde cada sabor <br>
+                conta uma história
+              </h1>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                VENHA COM A FAMÍLIA E SINTA A ALEGRIA DE UMA COMIDA DE DAR ÁGUA NA BOCA
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Veja nosso cardapio </span>
+                <span class="text text-2" aria-hidden="true"
+                  >Veja nosso cardapio
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+  
+            <span class="label-2 text-center span">Reservar uma mesa</span>
+          </a>
+  
+        </section>
+
+        <!-- #SERVICE -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">SABORES PARA REALEZA</p>
+
+            <h2 class="headline-1 section-title">Oferecemos alto nível</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry lorem Ipsum has been the industrys standard dummy text
+              ever.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 205; --height: 336"
+                    >
+                      <img
+                        src="assets/images/service-1.jpg"
+                        width="205"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="card-title">Café da manhã</h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver cardápio</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 205; --height: 336"
+                    >
+                      <img
+                        src="assets/images/service-2.jpg"
+                        width="205"
+                        height="336"
+                        loading="lazy"
+                        alt="
+                                    Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="card-title">Aperitivos</h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver cardápio</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 205; --height: 336"
+                    >
+                      <img
+                        src="assets/images/service-3.jpg"
+                        width="205"
+                        height="336"
+                        loading="lazy"
+                        alt="
+                                    Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="card-title">Bebidas</h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Ver cárdapio</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="assets/images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+
+            <img
+              src="assets/images/shape-2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- #ABOUT -->
+
+        <section class="section about text-center" aria-label="about-label" id="about">
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">Nossa história</p>
+
+              <h2 class="headline-1 section-title">
+                Cada sabor conta uma história
+              </h2>
+
+              <p class="section-text">
+                Lorem Ipsum is simply dummy text of the printingand typesetting
+                industry lorem Ipsum has been the industrys standard dummy text
+                ever since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book It has survived not
+                only five centuries, but also the leap into.
+              </p>
+
+              <div class="contact-label">Reserve por chamada</div>
+
+              <a
+                href="tel: +804001234567"
+                class="body-1 contact-number hover-underline"
+                >+80 (400) 123 4567</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read More</span>
+
+                <span class="text text-2" aria-hidden="true">consulte mais informção</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/badge-2.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <img
+                src="./assets/images/shape-3.png"
+                width="197"
+                height="194"
+                loading="lazy"
+                alt=""
+                class="shape"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- #SPECIAL DISH  -->
+
+        <section class="special-dish text-center">
+          <div class="special-dish-banner">
+            <img
+              src="./assets/images/special-dish-banner.jpg"
+              width="940"
+              height="900"
+              loading="lazy"
+              alt="special dish"
+              class="img-cover"
+            />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <img
+                src="./assets/images/badge-1.png"
+                width="28"
+                height="41"
+                loading="lazy"
+                alt="badge"
+                class="abs-img"
+              />
+
+              <p class="section-subtitle label-2">PRATO ESPECIAL</p>
+
+              <h2 class="headline section-line">Lobster Tortellini</h2>
+
+              <p class="section-text">
+                Lorem Ipsum is simply dummy text of the printingand typesetting
+                industry lorem Ipsum has been the industrys standard dummy text
+                ever since the when an unknown printer took a galley of type.
+              </p>
+
+              <div class="wrapper">
+                <del class="del body-3">$40.00</del>
+
+                <span class="span body-1">$20.00</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">View All Menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View All Menu</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/shape-4.png"
+            width="179"
+            height="359"
+            loading="lazy"
+            alt=""
+            class="shape shape-1"
+          />
+
+          <img
+            src="./assets/images/shape-9.png"
+            width="351"
+            height="462"
+            loading="lazy"
+            alt=""
+            class="shape shape-2"
+          />
+        </section>
+
+        <!-- #MENU -->
+
+        <section class="section menu" aria-label="menu labek" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">
+              SELEÇÃO ESPECIAL
+            </p>
+
+            <h2 class="headline-1 section-title text-center">Menu Delicioso</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-1.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Salada grega</a>
+                      </h3>
+
+                      <span class="badge label-1">Seasonal</span>
+
+                      <span class="span title-2">$25.50</span>
+                    </div>
+
+                    <p class="card-text">
+                      Tomatoes, green bell pepper, sliced cucumber onion,
+                      olives, and feta cheese.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-2.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lamen</a>
+                      </h3>
+
+                      <span class="badge label-1">Seasonal</span>
+
+                      <span class="span title-2">$40.00</span>
+                    </div>
+
+                    <p class="card-text">
+                      Vegetables, cheeses, ground meats, tomato sauce,
+                      seasonings and spices
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-3.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Biryany</a>
+                      </h3>
+
+
+                      <span class="span title-2">$10.00</span>
+                    </div>
+
+                    <p class="card-text">
+                      Typesetting industry lorem Lorem Ipsum is simply dummy
+                      text of the priand.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-4.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Palak paneer</a>
+                      </h3>
+
+                      <span class="badge label-1">New</span>
+
+                      <span class="span title-2">$39.00</span>
+                    </div>
+
+                    <p class="card-text">
+                      Vegetables, cheeses, ground meats, tomato sauce,
+                      seasonings and spices.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-5.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Arroz com salmão</a>
+                      </h3>
+
+                      <span class="span title-2">$25.00</span>
+                    </div>
+
+                    <p class="card-text">
+                      Avocados with crab meat, red onion, crab salad stuffed red
+                      bell pepper and green bell pepper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --heigth: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-6.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Tuna</a>
+                      </h3>
+
+                      <span class="span title-2">$49.00</span>
+                    </div>
+
+                    <p class="card-text">
+                      Vegetables, cheeses, ground meats, tomato sauce,
+                      seasonings and spices
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <p class="menu-text text-center">
+              Durante o inverno diariamente a partir de  <span class="span"> 7:00 pm </span> até
+              <span class="span"> 9:00 pm</span>
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Ver todo  o menu</span>
+
+              <span class="text text-2" aria-hidden="true">Ver todo  o menu</span>
+            </a>
+
+            <img
+              src="./assets/images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- #TESTIMONIALS -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Queria agradecer por me convidar para aquele jantar incrível naquela noite. A comida era extraordinária.
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <div class="profile">
+              <img
+                src="./assets/images/testi-avatar.jpg"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt="Sam Jhonson"
+                class="img"
+              />
+
+              <p class="label-2 profile-name">Sam Jhonson</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- #RESERVATION -->
+
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Reserva on-line</h2>
+
+                <p class="form-text text-center">
+                  Pedido de reserva
+                  <a href="+88123123456" class="link">+88-123-123456</a>
+                  ou preencha o formulário de pedido
+                </p>
+
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Seu nome"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Número de telefone"
+                    class="input-field"
+                  />
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="person-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="1 Person">1 Pessoa</option>
+                      <option value="2 Person">2 Pessoa</option>
+                      <option value="3 Person">3 Pessoa</option>
+                      <option value="4 Person">4 Pessoa</option>
+                      <option value="5 Person">5 Pessoa</option>
+                      <option value="6 Person">6 Pessoa</option>
+                      <option value="7 Person">7 Pessoa</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="calendar-clear-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                    
+
+                    <input
+                      type="date"
+                      name="reservation-date"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="08:00am">08 : 00 am</option>
+                      <option value="09:00am">09 : 00 am</option>
+                      <option value="10:00am">10 : 00 am</option>
+                      <option value="11:00am">11 : 00 am</option>
+                      <option value="12:00am">12 : 00 am</option>
+                      <option value="01:00pm">01 : 00 pm</option>
+                      <option value="02:00pm">02 : 00 pm</option>
+                      <option value="03:00pm">03 : 00 pm</option>
+                      <option value="04:00pm">04 : 00 pm</option>
+                      <option value="05:00pm">05 : 00 pm</option>
+                      <option value="06:00pm">06 : 00 pm</option>
+                      <option value="07:00pm">07 : 00 pm</option>
+                      <option value="08:00pm">08 : 00 pm</option>
+                      <option value="09:00pm">09 : 00 pm</option>
+                      <option value="10:00pm">10 : 00 pm</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Mensage"
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Reservar uma mesa</span>
+
+                  <span class="text text-2" aria-hidden="true"
+                    >Reservar uma mesa</span
+                  >
+                </button>
+              </form>
+
+              <div class="form-right text-center"       style="background-image: url(./assets/images/form-pattern.png)">
+                <h2 class="headline-1 text-center">Contate-nos</h2>
+
+                <p class="contact-label">Pedido de reserva</p>
+
+                <a
+                  href="tel:+88123123456"
+                  class="body-1 contact-number hover-underline"
+                  >+88-123-123456</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Localização</p>
+
+                <address class="body-4">
+                  Restaurant St, Delicious City, <br />
+                  London 9578, UK
+                </address>
+
+                <p class="contact-label">Hora do almoço</p>
+
+                <p class="body-4">
+                  De segunda a domingo, <br/>
+                  das 11h00 às 14h30
+                </p>
+
+                <p class="contact-label">Hora do jantar</p>
+
+                <p class="body-4">
+                  De segunda a domingo, <br>
+                  das 17h00 às 22h00
+                </p>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- #FEATURES -->
+
+        <section class="section features text-center" aria-label="factures">
+          <div class="container">
+
+            <p class="section-subtitle label-2">PORQUE ESCOLHER-NOS</p>
+
+            <h2 class="headline-1 section-title">Nossa força</h2>
+
+            <ul class="grid-list">
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Alimentos Higiênicos</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Ambiente Fresco</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Chefs qualificados</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Evento & Festa</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="" class="shape shape-1">
+            
+            <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="" class="shape shape-2">
+          </div>
+        </section>
+
+        <!-- #EVENT -->
+
+        <section class="section event bg-black-10" aria-label="event">
+          <div class="container">
+        
+            <p class="section-subtitle label-2 text-center">ATUALIZAÇÕES RECENTES</p>
+
+            <h2 class="section-title headline-1 text-center">Próximos eventos</h2>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                    <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                    <time class="plublish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                  </div>
+
+                  <div class="card-content">
+
+                    <p class="card-subtitle label-2 text-center">COMIDA, SABOR</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Sabor tão bom que você vai tentar comer com os olhos.
+                    </h3>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                    <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                    <time class="plublish-date label-2" datetime="2022-09-08">08/09/2022</time>
+                  </div>
+
+                  <div class="card-content">
+
+                    <p class="card-subtitle label-2 text-center">COMIDA SAUDÁVEL.</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Sabor tão bom que você vai tentar comer com os olhos.
+                    </h3>
+
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                    <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                    <time class="plublish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                  </div>
+
+                  <div class="card-content">
+
+                    <p class="card-subtitle label-2 text-center">RECEITA</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Sabor tão bom que você vai tentar comer com os olhos.
+                    </h3>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Veja nosso blog</span>
+
+              <span class="text text-2" aria-hidden="true">Veja nosso blog</span>
+            </a>
+          
+          </div>
+        </section>
+
+      </article>
+    </main>
+
+    <!-- #FOOTER -->
+
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg');">
+      <div class="container">
+
+        <div class="footer-top grid-list">
+          
+          <div class="footer-brand has-after has-before">
+            <a href="#">
+              <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+            </a>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, London 9578, UK
+            </address>
+
+            <a href="malito:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+            
+            <a href="tel:+88123123456" class="body-4 contact-link">Pedido de reserva : +88-123-123456</a>
+
+            <p class="body-4">Aberto : 09:00 am - 01:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Receba notícias e ofertas</p>
+
+            <p class="label-1">Inscreva-se e ganhe<span class="span">25%  de desconto.</span></p>
+            
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input type="email" name="email_address" placeholder="Seu email" autocomplete="off" class="input-field">
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span class="text text-1">Se inscreva</span>
+                
+                <span class="text text-2" aria-hidden="true">Se inscreva</span>
+              </button>
+            </form>
+        
+          </div>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="label footer-link hover-underline">Inicio</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Menus</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Nossos chefes</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Contato</a>
+            </li>
+            
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="label footer-link hover-underline">Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Instagram</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Twitter</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Youtube</a>
+            </li>
+            <li>
+              <a href="#" class="label footer-link hover-underline">Google Map</a>
+            </li>
+            
+          </ul>
+
+        </div>
+
+        <div class="footer-bottom">
+
+
+          <p class="copyright">
+            &copy; 2022 Grilli.Todos os direitos reservados | Feito por <a href="https://github.com/JoaoPedroeustaquio" target="_blank" class="link">João Pedro </a>
+          </p>
+        </div>
+
+      </div>
+    
+    </footer>
+
+    <!-- #BACK TO TOP -->
+
+    <a href="#" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
