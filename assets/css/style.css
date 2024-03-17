@@ -919,6 +919,8 @@ body.nav-active {overflow: hidden;}
 
 .special-dish-content .btn { margin-inline: auto;}
 
+.special-dish .section-text { text-align: justify;}
+
 
 
 .menu .section-subtitle { margin-block-end: 40px;}
@@ -1154,7 +1156,9 @@ textarea.input-field {
   margin-block-start: 40px;
 }
 
-
+.footer a {
+  margin-bottom: 20px;
+}
 
 .footer-top { margin-block-end: 70px; }
 
